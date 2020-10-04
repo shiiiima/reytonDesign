@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1.28674in" height="3.58738in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 28 78"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:#2F2E41}
+    .fil0 {fill:#3F3D56}
+    .fil3 {fill:#6C63FF}
+    .fil2 {fill:white}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2562089221040">
+   <path class="fil0" d="M24 78l1 0 -1 -78 -1 0 0 2 -13 0 0 -2 -1 0 -1 78 1 0 0 -5 15 0 0 5zm-1 -56l-13 0 0 -10 13 0 0 10zm0 0l0 10 -14 0 1 -10 13 0zm0 11l1 9 -15 0 0 -9 14 0zm1 10l0 9 -15 0 0 -9 15 0zm0 10l0 10 -15 0 0 -10 15 0zm-1 -51l0 10 -13 0 0 -10 13 0zm-14 71l0 -10 15 0 0 10 -15 0z"/>
+   <circle class="fil1" cx="13" cy="17" r="10"/>
+   <rect class="fil1" transform="matrix(0.984006 -0.178133 0.178133 0.984006 16.2614 24.5517)" width="2.90375" height="5.20265"/>
+   <rect class="fil1" transform="matrix(0.984006 -0.178133 0.178133 0.984006 10.5467 25.5861)" width="2.90375" height="5.20265"/>
+   <ellipse class="fil1" transform="matrix(0.763108 -0.646271 0.646271 0.763108 12.4037 31.0905)" rx="2" ry="1"/>
+   <ellipse class="fil1" transform="matrix(0.763108 -0.646271 0.646271 0.763108 17.9994 30.0775)" rx="2" ry="1"/>
+   <circle class="fil2" cx="13" cy="15" r="3"/>
+   <circle class="fil0" cx="11" cy="14" r="1"/>
+   <path class="fil3" d="M21 7c0,-4 -3,-7 -7,-7 -4,0 -7,3 -7,6 0,4 2,5 6,5 4,0 8,0 8,-4z"/>
+   <ellipse class="fil1" transform="matrix(0.223422 -0.974722 0.974722 0.223422 4.67066 15.6875)" rx="2" ry="5"/>
+   <ellipse class="fil1" transform="matrix(0.223422 -0.974722 0.974722 0.223422 23.4332 18.8077)" rx="2" ry="5"/>
+   <path class="fil2" d="M16 21c0,0 0,0 0,1 0,1 -1,2 -2,2 -1,0 -2,-1 -2,-2l0 0c0,-1 1,-2 2,-2 1,0 2,0 2,1z"/>
+  </g>
+ </g>
+</svg>

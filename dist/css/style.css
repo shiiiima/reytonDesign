@@ -1,0 +1,277 @@
+*, p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none; }
+
+.center {
+  margin: 0 auto; }
+
+a, a:hover {
+  color: white; }
+
+.header {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.3))), url("../images/rel1.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../../images/rel.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  height: 100%;
+   }
+   .bordershadow {
+	border-radius: 10px;
+	border: 1px solid #999 !important;
+	margin: 1rem;
+	box-shadow: 2px 3px 10px 5px #777;
+	transition: transform .4s; }
+	.bordershadow img {
+	  border-radius: 10px 10px 0px 0px;
+	  height: 7rem;
+	
+	 }
+  
+  .bordershadow:hover {
+	transform: scale(1.04); }
+  
+  .logoJob img {
+	border-radius: 10px; }
+.recordCard{
+	height: auto;
+	margin-top: .5rem;
+	margin-bottom: 1rem;
+	
+}
+
+.main2, .loginPart {
+  min-height: 45vh;
+  background: linear-gradient(rgba(19, 89, 219, 0.7), rgba(19, 89, 219, 0.9)), url("../../images/rel1.jpg");
+  background-position: center center;
+  background-size: 100% 100%; }
+  @media (max-width: 992px) {
+    .main2, .loginPart {
+      min-height: 50vh;
+      font-size: larger; } }
+
+.page-link-2 {
+  color: #fff;
+  background-color: #593196;
+  border: 1px solid #ededed;
+  border-radius: 50%;
+  margin: 1px; }
+
+.page-link-active {
+  color: #593196;
+  background-color: #fff;
+  border: 1px solid #593196; }
+
+.loginPart {
+  min-height: 40vh; }
+
+.footer {
+  background-color: black;
+  height:50vh;
+  padding-top: 3rem; }
+  @media (max-width: 768px) {
+    .footer {
+      padding-top: 3rem; } }
+
+.copyRights {
+  background-color: black;
+  min-height: 10vh;
+  font-weight: normal;
+  display: block; }
+  @media (max-width: 768px) {
+    .copyRights {
+      display: none; } }
+
+
+      body{
+        color: #333;
+        font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+      }
+      
+      
+      /* Style for our header texts
+      * --------------------------------------- */
+      h1{
+        font-size: 5em;
+        font-family: arial,helvetica;
+        margin:0;
+        padding:0;
+      }
+      h2{
+        font-size: 2em;
+        margin: 0 0 18px 0;
+        font-family: arial,helvetica;
+      }
+      
+      
+      
+      
+      /* Common styles
+      * --------------------------------------- */
+      img{
+        -webkit-transition: all 0.7s ease-out;
+        -moz-transition: all 0.7s ease-out;
+        -o-transition: all 0.7s ease-out;
+        transition: all 0.7s ease-out;
+      }
+      .section{
+        text-align:center;
+        overflow:hidden;
+      }
+      .wrap{
+        width: 1180px;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+      }
+      .box{
+        text-align: left;
+        color: #808080;
+        font-size: 1.2em;
+        line-height: 1.6em;
+      }
+      
+      
+      
+      
+      /* Section 0
+      * --------------------------------------- */
+      #section0{
+        padding: 60px 0;
+      }
+      #section0 img{
+        height: 100%;
+        margin: 40px 0 0 0;
+      }
+      
+      
+      
+      
+      /* Section 1
+      * --------------------------------------- */
+      
+      #section1 .site-img-2{
+        position: relative;
+      
+      } 
+      
+      
+      #section1 .el2-img-2{
+        position: absolute;
+        left: 0;
+        }
+      #section1 .nardeban-img-2{
+        position:absolute;
+        left: 564px;
+          top: 11px;
+        
+      }
+      /*screen resolutions between 620px and 800px*/
+      
+      
+      
+      /*screen resolutions lower than 620px*/
+      
+      
+      
+      
+      
+      
+      
+      /* Section 2
+      * --------------------------------------- */
+      
+      
+      #staticImg{
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 200%;
+        left: 0;
+        width: 100%;
+        min-width: 980px;
+        height: 100%;
+      
+        -webkit-transition: all 0.7s ease-out;
+        -moz-transition: all 0.7s ease-out;
+        -o-transition: all 0.7s ease-out;
+        transition: all 0.7s ease-out;
+      
+        -webkit-backface-visibility: hidden;
+        -webkit-perspective: 1000;
+      }
+      #staticImg.moveDown{
+      -webkit-transform: translate3d(0, 100%, 0);
+        -ms-transform: translate3d(0, 100%, 0);
+          transform: translate3d(0, 100%, 0);
+      }
+      #staticImg.moveUp{
+      
+      -webkit-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+      }
+      #staticImg.moveDown .imgsContainer{
+          top: 50%;
+      }
+      #staticImg.moveDown img{
+        top: 155px;
+      }
+      
+      #staticImg.active .imgsContainer{
+        top: 50%;
+      }
+      
+      
+      #staticImg.active img{
+        top: 487px;
+      }
+      
+      
+      
+      
+      
+      /* Section 3
+      * --------------------------------------- */
+      #section3 .content{
+        position: relative;
+        width: 80%;
+        height: 50vh;
+      }
+      #section3 .laptop-img-3{
+        position: relative;
+        
+      }
+      #section3 p{
+        position: absolute;
+        top: 0;
+        margin-top: 10%;
+        margin-left: 25%;
+        width: 50%;
+        overflow: hidden;
+      }
+      
+      
+      /* Overwriting fullPage.js tooltip color
+      * --------------------------------------- */
+      .fp-tooltip{
+        color: #AAA;
+      }
+      #fp-nav span, .fp-slidesNav span{
+        border-color: #AAA;
+      }
+      #fp-nav li .active span, .fp-slidesNav .active span{
+        background: #AAA;
+      }
+      /* section 4 */
+      #section4 .shabake-img-4{
+        width: 70%;
+        
+      }
+      
+      
+      
