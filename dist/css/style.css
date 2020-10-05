@@ -70,11 +70,15 @@ a, a:hover {
 
 .footer {
   background-color: black;
-  height:50vh;
+  min-height:50vh;
   padding-top: 3rem; }
   @media (max-width: 768px) {
     .footer {
-      padding-top: 3rem; } }
+	  padding-top: 3rem; 
+	  min-height:100vh;
+	
+	} 
+}
 
 .copyRights {
   background-color: black;
@@ -84,8 +88,6 @@ a, a:hover {
   @media (max-width: 768px) {
     .copyRights {
       display: none; } }
-
-
       body{
         color: #333;
         font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
@@ -105,10 +107,6 @@ a, a:hover {
         margin: 0 0 18px 0;
         font-family: arial,helvetica;
       }
-      
-      
-      
-      
       /* Common styles
       * --------------------------------------- */
       img{
@@ -134,10 +132,7 @@ a, a:hover {
         font-size: 1.2em;
         line-height: 1.6em;
       }
-      
-      
-      
-      
+
       /* Section 0
       * --------------------------------------- */
       #section0{
@@ -147,104 +142,56 @@ a, a:hover {
         height: 100%;
         margin: 40px 0 0 0;
       }
-      
-      
-      
-      
+ 
       /* Section 1
       * --------------------------------------- */
-      
+ 
       #section1 .site-img-2{
-        position: relative;
+		position: relative;
+		width:400px;
       
       } 
       
-      
       #section1 .el2-img-2{
         position: absolute;
-        left: 0;
+		left: 0;
+		width:200px;
         }
       #section1 .nardeban-img-2{
         position:absolute;
-        left: 564px;
+        left: 250px;
           top: 11px;
-        
-      }
-      /*screen resolutions between 620px and 800px*/
-      
-      
-      
-      /*screen resolutions lower than 620px*/
-      
-      
-      
-      
-      
-      
-      
-      /* Section 2
-      * --------------------------------------- */
-      
-      
-      #staticImg{
-        display: block;
-        position: absolute;
-        z-index: 1;
-        top: 200%;
-        left: 0;
-        width: 100%;
-        min-width: 980px;
-        height: 100%;
-      
-        -webkit-transition: all 0.7s ease-out;
-        -moz-transition: all 0.7s ease-out;
-        -o-transition: all 0.7s ease-out;
-        transition: all 0.7s ease-out;
-      
-        -webkit-backface-visibility: hidden;
-        -webkit-perspective: 1000;
-      }
-      #staticImg.moveDown{
-      -webkit-transform: translate3d(0, 100%, 0);
-        -ms-transform: translate3d(0, 100%, 0);
-          transform: translate3d(0, 100%, 0);
-      }
-      #staticImg.moveUp{
-      
-      -webkit-transform: translate3d(0, 0, 0);
-        -ms-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
-      }
-      #staticImg.moveDown .imgsContainer{
-          top: 50%;
-      }
-      #staticImg.moveDown img{
-        top: 155px;
+		  width:90px;
       }
       
-      #staticImg.active .imgsContainer{
-        top: 50%;
+      /* Section 2 
+	  * --------------------------------------- */
+	  .imgContainer{
+		position: relative;
+		
+	  }
+	  #section2 .tablo2-img-3{
+		width:100%;
+		}
+
+	  #section2 .tablo-img-3{
+		position: absolute;
+		right:100px;
+		top:100px;
+		width:300px;
+      
+      } 
+      #section2 .el-img-3{
+        position:absolute;
+        left: 300px;
+          top: 224px;
+		  height: 250px;
       }
-      
-      
-      #staticImg.active img{
-        top: 487px;
-      }
-      
-      
-      
-      
-      
       /* Section 3
       * --------------------------------------- */
-      #section3 .content{
-        position: relative;
-        width: 80%;
-        height: 50vh;
-      }
       #section3 .laptop-img-3{
-        position: relative;
-        
+		position: relative;
+		width: 100%;
       }
       #section3 p{
         position: absolute;
@@ -253,9 +200,31 @@ a, a:hover {
         margin-left: 25%;
         width: 50%;
         overflow: hidden;
-      }
-      
-      
+	  }
+	  #section3 .el-img-3{
+		  position: relative;
+		  top:115px;
+		  right:-115px;
+		  height:200px;
+	  }
+	  #section3 .giah-img-3{
+		position: relative;
+		top:79px;
+		right:150px;
+		height:200px;
+	}
+	 /* Section 4
+	  * --------------------------------------- */
+	  #section4 .shabake-img-4{
+		height: 20rem;
+		
+	  }
+	  #section4 .admin-img-4{
+		position: absolute;
+        right: 126px;
+        top: 7rem;
+        width: 5rem;
+	  }
       /* Overwriting fullPage.js tooltip color
       * --------------------------------------- */
       .fp-tooltip{
@@ -267,11 +236,7 @@ a, a:hover {
       #fp-nav li .active span, .fp-slidesNav .active span{
         background: #AAA;
       }
-      /* section 4 */
-      #section4 .shabake-img-4{
-        width: 70%;
-        
-      }
+  
       
       
       

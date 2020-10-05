@@ -12,6 +12,7 @@ console.error('API is Down or bad requested!')
 } 
 async function renderblog(){
 	let posts = await loadBlogJson();
+	posts = posts.slice(posts.length - 4,posts.length)
 	let html = '';
 	posts.forEach(post => {
 		
@@ -25,9 +26,9 @@ async function renderblog(){
 		</div>
 		</a>
 	  </div>
-	  </div>`
-	
-		html+=temp
+	  </div>`;
+		html+=temp;
+		
 	});
 	$('#postsPart').append(html);
 } 
